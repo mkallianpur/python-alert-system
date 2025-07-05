@@ -1,0 +1,14 @@
+log_path: "./logs/sample.log"
+
+error_keywords:
+  - ERROR
+  - FAILURE
+  - Exception
+
+email:
+  smtp_server: smtp.gmail.com
+  port: 587
+  sender: kallianpur.manasa@gmail.com
+  password: fkrenefgstclhxzr
+  recipients: mansi.gp@gmail.com
+  subject: "Job Failure Alert"
